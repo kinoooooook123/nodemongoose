@@ -1,0 +1,16 @@
+html
+    head
+        title= "Finded Page"
+    body
+        h1= "Finded Page"
+
+    form(action="update_process" method="POST")
+        p
+        input(type="text" name="name" value=finded_name)
+        p
+        input(type="text" name="password" value=finded_password)
+        p
+        input(type="text" name="email" value=finded_mail)
+        p
+        input(type="number" name="role" value=finded_number)
+        input(type="submit" value="수정")
